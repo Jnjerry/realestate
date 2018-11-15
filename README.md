@@ -1,2 +1,2 @@
 # realestate
-A real estate management platform using django and react
+A real estate management platform using Django and ReactJs
