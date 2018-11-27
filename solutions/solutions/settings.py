@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     ###solutions apps###
     'auths',
+    'land',
 ]
 
 MIDDLEWARE = [

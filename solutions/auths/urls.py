@@ -1,6 +1,11 @@
 from django.urls import path
-from . import views
+from .views import(
+UserCreate,
+UserLoginAPIView
+)
 
 urlpatterns=[
-    path(r'register', views.UserCreate.as_view(), name='account-create'),
+    path(r'register', UserCreate.as_view(), name='register'),
+    path(r'login', UserLoginAPIView.as_view(), name='login'),
+
 ]

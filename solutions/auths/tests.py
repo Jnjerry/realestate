@@ -9,7 +9,7 @@ class AccountsTest(APITestCase):
 		'''originally create a user'''
 		self.test_user=User.objects.create_user('testuser','test@gmail.com','testpassword')
 		'''url for creating an account'''
-		self.create_url=reverse('account-create')
+		self.create_url=reverse('register')
 
 	def test_create_user(self):
 		data={
